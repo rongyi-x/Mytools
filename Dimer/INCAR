@@ -1,0 +1,16 @@
+SYSTEM   = UMo       # title
+GGA      = PE        # Default is POTCAR
+ENCUT    = 600       # Default is POTCAR
+KSPACING = 0.2       # Default is 0.5
+KGAMMA   = .TRUE.    # This is the default
+NELM     = 120       # Default is 60
+ALGO     = Normal    # This is the default
+EDIFF    = 1E-06     # Default is 1E-4
+SIGMA    = 0.02      # Default is 0.2
+ISMEAR   = 0         # Default is 1
+PREC     = Accurate  # Default is Normal
+LREAL    = A         # Default is .FALSE.
+LWAVE    = .FALSE.   # Write WAVECAR or not
+LCHARG   = .FALSE.   # Write CHGCAR or not
+
+

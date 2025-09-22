@@ -1,0 +1,3 @@
+将自己的POSCAR 复制到文件夹
+使用vaspkit 102 功能生成KPOINTS文件
+参考 gamma点 0.04 粗优化

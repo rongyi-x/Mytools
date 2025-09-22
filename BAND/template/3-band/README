@@ -1,0 +1,7 @@
+从scf文件夹复制INCAR POSCAR POTCAT CHGCAR
+INCAR 需要修改参数
+KPOINT文件从vaspkit产生 302/303 KPATH.in 文件 改成KPOINTS
+提交计算任务后 使用vaspkit 211产生能带数据
+BAND_GAP 查看能带带隙值
+BAND.dat 导入original画图 
+打开KLABELS 里面保存着横坐标数据

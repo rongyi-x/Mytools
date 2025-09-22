@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -N vasp-test
+#PBS -l nodes=1:ppn=40
+#PBS -q low
+cd $PBS_O_WORKDIR
+NPROCS=`wc -l < $PBS_NODEFILE`
+module load compiler/intel/intel-compiler-2017.5.239
+module load mpi/intelmpi/2017.4.239
+mpirun  -np $NPROCS -machinefile $PBS_NODEFILE vasp_std >out.log

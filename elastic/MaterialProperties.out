@@ -1,0 +1,29 @@
+ Al     [1, 1, 1] Stacking_Fault: 68.4470 meV/A^2
+ Al     [1, 1, 1] Stacking_Fault: 68.8235 meV/A^2
+ Mg        C11:   61.49 GPa
+           C12:   27.98 GPa
+           C13:   24.68 GPa
+           C33:   66.73 GPa
+           C44:   17.05 GPa
+           C66:   16.60 GPa
+ Al        C11:  112.86 GPa
+           C12:   59.21 GPa
+           C13:   59.21 GPa
+           C33:  112.86 GPa
+           C44:   39.16 GPa
+           C66:   39.16 GPa
+ Mg        Lattice_Constants: a: 9.6150 A    c: 15.5903 A
+           Ground_State_Energy: -1.5090 eV
+ Mg        C11:   61.49 GPa
+           C12:   27.98 GPa
+           C13:   24.68 GPa
+           C33:   66.73 GPa
+           C44:   17.05 GPa
+           C66:   16.60 GPa
+ Mg     Formation_Energy_Vacancy: 0.8727 eV
+ Mg     Formation_Energy_Vacancy: 0.8727 eV
+ Mg     1-0--1 Surface_Energy: 0.8539 J/m^2
+ Mg     2-1--3 Surface_Energy: 0.8199 J/m^2
+ Mg     2--1--1 Surface_Energy: 0.7944 J/m^2
+ Mg     2-2--4 Surface_Energy: 1.0769 J/m^2
+ Mg     1-1-2 Surface_Energy: 0.7642 J/m^2

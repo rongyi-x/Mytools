@@ -1,0 +1,29 @@
+# Basic setup:
+ISTART = 0
+ENCUT = 600
+LWAVE = .FALSE.
+LCHARG = .FALSE. 
+
+# SPIN
+ISPIN = 2
+LMAXMIX = 6         #f轨道元素添加
+LASPH = .TRUE.      #准确计算能带结构 非常重要 尤其是f轨道
+
+# Accuracy controls:
+PREC = Normal
+ALGO = Fast
+LREAL = Auto
+ADDGRID = .TRUE.
+
+# Electronic Relaxation:
+NELM = 90
+NLEMIN = 6
+ISMEAR = 0
+SIGMA = 0.05
+EDIFF = 1E-05
+
+# Ionic Relaxation
+NSW = 100
+IBRION = 2
+ISIF = 3
+EDIFFG = -0.02

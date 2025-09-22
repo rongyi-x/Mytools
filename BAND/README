@@ -1,0 +1,6 @@
+能带计算
+template里为vasp的输入文件
+BAND.dat为vaspkit的输出文件
+需要删除BAND.data的最后一个空行
+band.py为画图的后处理软件
+输出band.xlsx文件绘图
